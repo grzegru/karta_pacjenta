@@ -34,8 +34,7 @@ fun main(args: Array<String>) {
                 var pesel_string = pesel.toString()
                 var length = pesel.toString().length
 
-            }while(length!=11 || (pesel_string[3] == '0' && pesel_string[3] == '1') || (pesel_string[5]>'3' && pesel_string[6]<'2') || (pesel_string[5]=='0' && pesel_string[6] == '0' ))
-
+            }while(length!=11)
             do{
                 println("Podaj datę wizyty - dzień: ")
                 day = readLine()!!.toInt()
